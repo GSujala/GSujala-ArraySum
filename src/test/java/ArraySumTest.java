@@ -1,4 +1,3 @@
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -14,6 +13,7 @@ public class ArraySumTest {
         int target = 15;
         Assert.assertEquals(target, as.sum(nums));
     }
+
     /**
      * the sum of {1, 2, 3, 1} should return the sum of the values, 7.
      */
